@@ -81,6 +81,27 @@
     <div>
         <button onclick="uploadImage()">Load Photo1</button>
     </div>
+    <div>
+        <button onclick="uploadImage2()">Load Photo2</button>
+    </div>
+    <div>
+        <button onclick="uploadImage3()">Load Photo3</button>
+    </div>
+    <div>
+        <button onclick="uploadImage4()">Load Photo4</button>
+    </div>
+    <div>
+        <button onclick="uploadImage5()">Load Photo5</button>
+    </div>
+    <div>
+        <button onclick="uploadImage6()">Load Photo6</button>
+    </div>
+    <div>
+        <button onclick="uploadImage7()">Load Photo7</button>
+    </div>
+    <div>
+        <button onclick="uploadImage8()">Load Photo8</button>
+    </div>
     <div id="imageContainer"></div>
     <div>
         <button onclick="checkImageColor()">Check Color</button>
@@ -100,16 +121,79 @@
     <script>
         var selectedImage = null;
 
-        function uploadImage() {
+       function uploadImage1() {
             var imageContainer = document.getElementById('imageContainer');
             var img = document.createElement('img');
-            img.src = './photo1.jpg'; 
+            img.src = 'images/photo1.jpg'; 
             img.id = 'selectedImage';
             selectedImage = img;
             imageContainer.innerHTML = '';
             imageContainer.appendChild(img);
         }
 
+        function uploadImage2() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo2.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage3() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo3.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage4() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo4.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage5() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo5.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage6() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo6.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage7() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo7.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
+        function uploadImage8() {
+            var imageContainer = document.getElementById('imageContainer');
+            var img = document.createElement('img');
+            img.src = 'images/photo8.jpg'; 
+            img.id = 'selectedImage';
+            selectedImage = img;
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(img);
+        }
 
        
 function checkImageColor() {
